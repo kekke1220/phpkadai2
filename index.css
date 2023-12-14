@@ -1,0 +1,265 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #666666, #BBBBBB,#DDDDDD);
+    color: #fff;
+    font-family: Arial;
+    font-size: 10px;
+  }
+
+.header{
+    position: absolute;
+    top: calc(50% - 65px);
+    left: calc(50% - 260px);
+    z-index: 2;
+  }
+  
+.header div{
+    float: left;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 45px;
+  }
+  
+.header div span{
+    color: #5379fa;
+  }
+
+.login{
+    position: absolute;
+    top: calc(45% - 180px);
+    left: calc(45% - 1px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+  }
+    
+#name {
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color:#fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+  }
+    
+#adress {
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color:#fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+    margin-top: 10px;
+  }
+      
+#file {
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 10px
+  }
+
+#lat {
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 10px
+  }
+
+#lng {
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 10px
+  }
+      
+#touroku {
+    width: 300px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+    
+#touroku:hover{
+    opacity: 0.8;
+  }
+      
+#touroku:active{
+    opacity: 0.6;
+  }
+      
+#name:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+  }
+
+#lat:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+  }
+
+#lng:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+  }
+      
+#adress:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+  }
+      
+#touroku:focus{
+    outline: none;
+  }
+    
+::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+  }
+     
+::-moz-input-placeholder{
+    color: rgba(255,255,255,0.6);
+  }
+
+
+     *,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+ }
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 50%;
+  }
+
+/* 背景用*/
+body {
+    padding: 20px;
+  }
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn-radius-gradient-wrap {
+  display: inline-block;
+
+  padding: 0.5rem;
+
+  border-radius: 100vh;
+  background: #f2f5f6;
+  background: -webkit-linear-gradient(
+    to top,
+    #f2f5f6 0%,
+    #e3eaed 37%,
+    #96a1a5 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f2f5f6),
+    color-stop(37%, #e3eaed),
+    to(#96a1a5)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f2f5f6 0%,
+    #e3eaed 37%,
+    #96a1a5 100%
+  );
+  background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #96a1a5 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#96a1a5', GradientType=0);
+}
+
+a.btn-radius-gradient {
+  border-radius: 100vh;
+  background: #e3eaed;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e3eaed),
+    to(#f2f5f6)
+  );
+  background: -webkit-linear-gradient(top, #e3eaed 0%, #f2f5f6 100%);
+  background: linear-gradient(to bottom, #e3eaed 0%, #f2f5f6 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3eaed', endColorstr='#f2f5f6', GradientType=0);
+}
+
+a.btn-radius-gradient:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.btn-radius-gradient-wrap {
+    margin-left: 605px;
+    margin-top: 570px;
+}

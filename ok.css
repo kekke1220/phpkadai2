@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #666666, #BBBBBB,#DDDDDD);
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.header{
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 100px);
+  z-index: 2;
+}
+
+.header div{
+  float: left;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.header div span{
+  color: #5379fa !important;
+}
+
+.touroku {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    left: 675px;
+    top: 330px;
+}
+
+.touroku2 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    left: 530px;
+    top: 380px;
+}
+
+#map {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 620px;
+    margin-top: 400px;
+}
+
+#next {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: 500px;
+}
+
+
+
+
+.cta_btn07 {
+    display: inline-block;
+    width: 50%;
+    max-width: 100px; /* ボタン幅 */
+    font-weight: bold; /* ボタンの太さ */
+    padding: 1em 2em;
+    color: #fff;
+    border-radius: 100vh;
+    background: #222222; /* ボタン背景色 */
+    background: linear-gradient(0deg, #0000CC 50%, #0000FF 100%); /* ボタン背景色（グラデーション） */
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .6), 0 5px 10px rgba(0, 0, 0, .1);
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 490px;
+    margin-top: 400px;
+    font-size: 15px;
+  }
+  
+  /* マウスオーバーした際のデザイン */
+  .cta_btn07:hover {
+    background: linear-gradient(0deg, #000044 20%, #000077 100%);
+    -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+  }
+
+
+
+
+  .cta_btn03 {
+    width: 100%;
+    max-width: 200px; /* ボタン幅 */
+    color: #fff; /* ボタン文字色 */
+    background-color: #444444; /* ボタン上色 */
+    position: relative;
+    padding: 1em 2em;
+    border-radius: 100vh;
+    border-bottom: 5px solid #999999; /* ボタン下色 */
+    font-weight: bold; /* ボタン文字の太さ */
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 40px;
+  }
+  
+  .cta_btn03-copy {
+    font-size:10px; /* コピー文字サイズ */
+    font-weight: bold; /* コピー文字の太さ */
+    color: initial; /* コピー文字の色 */
+    position: absolute;
+    top: -2em;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  .cta_btn03-copy:before {
+    margin-right: 1rem;
+    content: '＼';
+  }
+  
+  .cta_btn03-copy:after {
+    margin-left: 1rem;
+    content: '／';
+  }
+  
+  /* マウスオーバーした際のデザイン */
+  .cta_btn03:hover {
+    margin-top: calc(2em + 3px);
+    border-bottom: 2px solid #7c3b97; /* ボタン下色 */
+  }

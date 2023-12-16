@@ -79,8 +79,6 @@ echo "let locations = ".json_encode($locations).";";
 
 
 
-
-
 function GetMap() {
     // マップの初期化
     let map = new Microsoft.Maps.Map('#myMap', {
@@ -155,12 +153,15 @@ function GetMap() {
 
 
 
+
+
+
 // データベースから取得した場所にピンを追加
 locations.forEach(function(location) {
     let loc = new Microsoft.Maps.Location(parseFloat(location.lat), parseFloat(location.lng));
     let pin = new Microsoft.Maps.Pushpin(loc, {
         title: location.name,
-        subTitle: location.adress, // ここも address の綴りが正しいか確認してください
+        subTitle: location.adress, 
     });
     map.entities.push(pin);
 });
